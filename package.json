@@ -20,6 +20,7 @@
     "url": "https://github.com/Rafaell416/NewGram/issues"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "empty-element": "^1.0.0",
     "express": "^4.14.0",
     "intl": "^1.2.5",
@@ -28,6 +29,7 @@
     "moment": "^2.17.0",
     "page": "^1.7.1",
     "pug": "^2.0.0-beta6",
+    "superagent": "^3.1.0",
     "title": "^1.0.0",
     "yo-yo": "^1.3.1"
   },

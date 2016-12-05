@@ -6293,3 +6293,6 @@ body {
 
 .card.liked .fa-heart-o {
   display: none; }
+
+.form-upload span, .form-upload button {
+  color: white; }

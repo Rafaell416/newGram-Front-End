@@ -1,0 +1,496 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '--save-dev',
+1 verbose cli   'babel-plugin-syntax-async-functions',
+1 verbose cli   'babel-plugin-transform-regenerator',
+1 verbose cli   'babel-preset-es2015' ]
+2 info using npm@1.4.21
+3 info using node@v4.3.1
+4 warn package.json NewGram@0.1.0 No README data
+5 warn package.json arr-flatten@1.0.1 license should be a valid SPDX license expression
+6 warn package.json array-unique@0.2.1 license should be a valid SPDX license expression
+7 warn package.json asap@2.0.3 license should be a valid SPDX license expression
+8 warn package.json assert@1.3.0 assert is also the name of a node core module.
+9 warn package.json async-foreach@0.1.3 No license field.
+10 warn package.json babel-plugin-transform-regenerator@6.16.1 license should be a valid SPDX license expression
+11 warn package.json babel-traverse@6.7.6 No description
+12 warn package.json buffer@4.6.0 buffer is also the name of a node core module.
+13 warn package.json config-chain@1.1.10 No license field.
+14 warn package.json console-browserify@1.1.0 No license field.
+15 warn package.json date-now@0.1.4 No license field.
+16 warn package.json deprecated@0.0.1 No license field.
+17 warn package.json dom-walk@0.1.1 No license field.
+18 warn package.json duplexer2@0.0.2 license should be a valid SPDX license expression
+19 warn package.json esmangle-evaluator@1.0.0 No license field.
+20 warn package.json esutils@2.0.2 No license field.
+21 warn package.json events@1.1.0 events is also the name of a node core module.
+22 warn package.json expand-range@1.8.1 license should be a valid SPDX license expression
+23 warn package.json extsprintf@1.0.2 No license field.
+24 warn package.json filename-regex@2.0.0 license should be a valid SPDX license expression
+25 warn package.json findup-sync@0.3.0 No license field.
+26 warn package.json flagged-respawn@0.3.2 No license field.
+27 warn package.json fstream@0.1.31 license should be a valid SPDX license expression
+28 warn package.json function-bind@1.1.0 No license field.
+29 warn package.json gaze@0.5.2 No license field.
+30 warn package.json glob-base@0.3.0 license should be a valid SPDX license expression
+31 warn package.json glob-stream@3.1.18 No license field.
+32 warn package.json glob-watcher@0.0.6 No license field.
+33 warn package.json glob2base@0.0.12 No license field.
+34 warn package.json global@4.3.0 No license field.
+35 warn package.json globule@0.1.0 No license field.
+36 warn package.json gulp-rename@1.2.2 No license field.
+37 warn package.json has@1.0.1 No license field.
+38 warn package.json hyperx@2.0.3 license should be a valid SPDX license expression
+39 warn package.json indexof@0.0.1 No repository field.
+40 warn package.json indexof@0.0.1 No license field.
+41 warn package.json is-absolute@0.1.7 license should be a valid SPDX license expression
+42 warn package.json is-primitive@2.0.0 license should be a valid SPDX license expression
+43 warn package.json is-relative@0.1.3 No license field.
+44 warn package.json jsbn@0.1.0 license should be a valid SPDX license expression
+45 warn package.json json-schema@0.2.2 No license field.
+46 warn package.json jsonify@0.0.0 license should be a valid SPDX license expression
+47 warn package.json longest@1.0.1 license should be a valid SPDX license expression
+48 warn package.json mime@1.3.4 No license field.
+49 warn package.json min-document@2.18.0 No license field.
+50 warn package.json ms@0.7.1 No license field.
+51 warn package.json node-archiver@0.2.0 No license field.
+52 warn package.json node-uuid@1.4.7 No license field.
+53 warn package.json orchestrator@0.3.7 No license field.
+54 warn package.json pako@0.2.8 license should be a valid SPDX license expression
+55 warn package.json preserve@0.2.0 license should be a valid SPDX license expression
+56 warn package.json process@0.11.2 process is also the name of a node core module.
+57 warn package.json punycode@1.4.1 punycode is also the name of a node core module.
+58 warn package.json querystring@0.2.0 querystring is also the name of a node core module.
+59 warn package.json querystring@0.2.0 No license field.
+60 warn package.json querystring-es3@0.2.1 No license field.
+61 warn package.json repeat-element@1.1.2 license should be a valid SPDX license expression
+62 warn package.json replace-ext@0.0.1 No license field.
+63 warn package.json rechoir@0.6.2 No license field.
+64 warn package.json sequencify@0.0.7 No license field.
+65 warn package.json sntp@1.0.9 No license field.
+66 warn package.json source-map-support@0.2.10 No license field.
+67 warn package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+68 warn package.json tar@0.1.20 license should be a valid SPDX license expression
+69 warn package.json timers-browserify@1.4.2 No license field.
+70 warn package.json title@1.0.0 No repository field.
+71 warn package.json tweetnacl@0.13.3 license should be a valid SPDX license expression
+72 warn package.json unique-stream@1.0.0 license should be a valid SPDX license expression
+73 warn package.json url@0.11.0 url is also the name of a node core module.
+74 warn package.json util@0.10.3 util is also the name of a node core module.
+75 warn package.json utils-merge@1.0.0 No license field.
+76 warn package.json v8flags@2.0.11 No license field.
+77 warn package.json verror@1.3.6 No license field.
+78 warn package.json vinyl-fs@0.3.14 No license field.
+79 warn package.json wordwrap@0.0.2 license should be a valid SPDX license expression
+80 verbose readDependencies using package.json deps
+81 verbose cache add [ 'babel-plugin-syntax-async-functions', null ]
+82 verbose cache add name=undefined spec="babel-plugin-syntax-async-functions" args=["babel-plugin-syntax-async-functions",null]
+83 verbose parsed url Url {
+83 verbose parsed url   protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: 'babel-plugin-syntax-async-functions',
+83 verbose parsed url   path: 'babel-plugin-syntax-async-functions',
+83 verbose parsed url   href: 'babel-plugin-syntax-async-functions' }
+84 verbose cache add [ 'babel-plugin-transform-regenerator', null ]
+85 verbose cache add name=undefined spec="babel-plugin-transform-regenerator" args=["babel-plugin-transform-regenerator",null]
+86 verbose parsed url Url {
+86 verbose parsed url   protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: 'babel-plugin-transform-regenerator',
+86 verbose parsed url   path: 'babel-plugin-transform-regenerator',
+86 verbose parsed url   href: 'babel-plugin-transform-regenerator' }
+87 verbose cache add [ 'babel-preset-es2015', null ]
+88 verbose cache add name=undefined spec="babel-preset-es2015" args=["babel-preset-es2015",null]
+89 verbose parsed url Url {
+89 verbose parsed url   protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'babel-preset-es2015',
+89 verbose parsed url   path: 'babel-preset-es2015',
+89 verbose parsed url   href: 'babel-preset-es2015' }
+90 silly lockFile 574ac5a1-el-plugin-syntax-async-functions babel-plugin-syntax-async-functions
+91 verbose lock babel-plugin-syntax-async-functions /root/.npm/574ac5a1-el-plugin-syntax-async-functions.lock
+92 silly lockFile 073d7157-bel-plugin-transform-regenerator babel-plugin-transform-regenerator
+93 verbose lock babel-plugin-transform-regenerator /root/.npm/073d7157-bel-plugin-transform-regenerator.lock
+94 silly lockFile 60061373-babel-preset-es2015 babel-preset-es2015
+95 verbose lock babel-preset-es2015 /root/.npm/60061373-babel-preset-es2015.lock
+96 silly lockFile 574ac5a1-el-plugin-syntax-async-functions babel-plugin-syntax-async-functions
+97 silly lockFile 574ac5a1-el-plugin-syntax-async-functions babel-plugin-syntax-async-functions
+98 silly lockFile 073d7157-bel-plugin-transform-regenerator babel-plugin-transform-regenerator
+99 silly lockFile 073d7157-bel-plugin-transform-regenerator babel-plugin-transform-regenerator
+100 silly lockFile 60061373-babel-preset-es2015 babel-preset-es2015
+101 silly lockFile 60061373-babel-preset-es2015 babel-preset-es2015
+102 verbose addNamed [ 'babel-plugin-syntax-async-functions', '' ]
+103 verbose addNamed [ null, '*' ]
+104 silly lockFile e92ce563-el-plugin-syntax-async-functions babel-plugin-syntax-async-functions@
+105 verbose lock babel-plugin-syntax-async-functions@ /root/.npm/e92ce563-el-plugin-syntax-async-functions.lock
+106 verbose addNamed [ 'babel-plugin-transform-regenerator', '' ]
+107 verbose addNamed [ null, '*' ]
+108 silly lockFile cfe70c1b-bel-plugin-transform-regenerator babel-plugin-transform-regenerator@
+109 verbose lock babel-plugin-transform-regenerator@ /root/.npm/cfe70c1b-bel-plugin-transform-regenerator.lock
+110 verbose addNamed [ 'babel-preset-es2015', '' ]
+111 verbose addNamed [ null, '*' ]
+112 silly lockFile 087cfbaa-babel-preset-es2015 babel-preset-es2015@
+113 verbose lock babel-preset-es2015@ /root/.npm/087cfbaa-babel-preset-es2015.lock
+114 silly addNameRange { name: 'babel-plugin-syntax-async-functions',
+114 silly addNameRange   range: '*',
+114 silly addNameRange   hasData: false }
+115 silly addNameRange { name: 'babel-plugin-transform-regenerator',
+115 silly addNameRange   range: '*',
+115 silly addNameRange   hasData: false }
+116 silly addNameRange { name: 'babel-preset-es2015', range: '*', hasData: false }
+117 verbose request where is /babel-plugin-syntax-async-functions
+118 verbose request registry https://registry.npmjs.org/
+119 verbose request id 4ec0e172dcc69092
+120 verbose url raw /babel-plugin-syntax-async-functions
+121 verbose url resolving [ 'https://registry.npmjs.org/',
+121 verbose url resolving   './babel-plugin-syntax-async-functions' ]
+122 verbose url resolved https://registry.npmjs.org/babel-plugin-syntax-async-functions
+123 verbose request where is https://registry.npmjs.org/babel-plugin-syntax-async-functions
+124 info trying registry request attempt 1 at 11:48:07 p. m.
+125 verbose etag W/"58092257-5af5"
+126 http GET https://registry.npmjs.org/babel-plugin-syntax-async-functions
+127 verbose request where is /babel-plugin-transform-regenerator
+128 verbose request registry https://registry.npmjs.org/
+129 verbose url raw /babel-plugin-transform-regenerator
+130 verbose url resolving [ 'https://registry.npmjs.org/',
+130 verbose url resolving   './babel-plugin-transform-regenerator' ]
+131 verbose url resolved https://registry.npmjs.org/babel-plugin-transform-regenerator
+132 verbose request where is https://registry.npmjs.org/babel-plugin-transform-regenerator
+133 info trying registry request attempt 1 at 11:48:07 p. m.
+134 verbose etag W/"57ec3cf0-b478"
+135 http GET https://registry.npmjs.org/babel-plugin-transform-regenerator
+136 verbose request where is /babel-preset-es2015
+137 verbose request registry https://registry.npmjs.org/
+138 verbose url raw /babel-preset-es2015
+139 verbose url resolving [ 'https://registry.npmjs.org/', './babel-preset-es2015' ]
+140 verbose url resolved https://registry.npmjs.org/babel-preset-es2015
+141 verbose request where is https://registry.npmjs.org/babel-preset-es2015
+142 info trying registry request attempt 1 at 11:48:07 p. m.
+143 verbose etag W/"58434892-cbc8"
+144 http GET https://registry.npmjs.org/babel-preset-es2015
+145 http 304 https://registry.npmjs.org/babel-plugin-transform-regenerator
+146 silly registry.get cb [ 304,
+146 silly registry.get   { date: 'Mon, 05 Dec 2016 04:48:49 GMT',
+146 silly registry.get     via: '1.1 varnish',
+146 silly registry.get     'cache-control': 'max-age=300',
+146 silly registry.get     etag: 'W/"57ec3cf0-b478"',
+146 silly registry.get     age: '124',
+146 silly registry.get     connection: 'close',
+146 silly registry.get     'x-served-by': 'cache-iad2644-IAD',
+146 silly registry.get     'x-cache': 'HIT',
+146 silly registry.get     'x-cache-hits': '1',
+146 silly registry.get     'x-timer': 'S1480913329.291932,VS0,VE0',
+146 silly registry.get     vary: 'Accept-Encoding' } ]
+147 verbose etag https://registry.npmjs.org/babel-plugin-transform-regenerator from cache
+148 http 304 https://registry.npmjs.org/babel-preset-es2015
+149 silly registry.get cb [ 304,
+149 silly registry.get   { date: 'Mon, 05 Dec 2016 04:48:49 GMT',
+149 silly registry.get     via: '1.1 varnish',
+149 silly registry.get     'cache-control': 'max-age=300',
+149 silly registry.get     etag: 'W/"58434892-cbc8"',
+149 silly registry.get     age: '285',
+149 silly registry.get     connection: 'close',
+149 silly registry.get     'x-served-by': 'cache-iad2141-IAD',
+149 silly registry.get     'x-cache': 'HIT',
+149 silly registry.get     'x-cache-hits': '2',
+149 silly registry.get     'x-timer': 'S1480913329.303247,VS0,VE0',
+149 silly registry.get     vary: 'Accept-Encoding' } ]
+150 verbose etag https://registry.npmjs.org/babel-preset-es2015 from cache
+151 silly addNameRange number 2 { name: 'babel-plugin-transform-regenerator',
+151 silly addNameRange   range: '*',
+151 silly addNameRange   hasData: true }
+152 silly addNameRange versions [ 'babel-plugin-transform-regenerator',
+152 silly addNameRange   [ '6.0.2',
+152 silly addNameRange     '6.0.8',
+152 silly addNameRange     '6.0.10',
+152 silly addNameRange     '6.0.12',
+152 silly addNameRange     '6.0.14',
+152 silly addNameRange     '6.0.17',
+152 silly addNameRange     '6.0.18',
+152 silly addNameRange     '6.1.4',
+152 silly addNameRange     '6.1.17',
+152 silly addNameRange     '6.1.18',
+152 silly addNameRange     '6.2.0',
+152 silly addNameRange     '6.2.4',
+152 silly addNameRange     '6.3.2',
+152 silly addNameRange     '6.3.13',
+152 silly addNameRange     '6.3.18',
+152 silly addNameRange     '6.3.26',
+152 silly addNameRange     '6.4.3',
+152 silly addNameRange     '6.4.4',
+152 silly addNameRange     '6.5.0',
+152 silly addNameRange     '6.5.0-1',
+152 silly addNameRange     '6.5.2',
+152 silly addNameRange     '6.6.0',
+152 silly addNameRange     '6.6.5',
+152 silly addNameRange     '6.8.0',
+152 silly addNameRange     '6.9.0',
+152 silly addNameRange     '6.11.4',
+152 silly addNameRange     '6.14.0',
+152 silly addNameRange     '6.16.0',
+152 silly addNameRange     '6.16.1' ] ]
+153 verbose addNamed [ 'babel-plugin-transform-regenerator', '6.16.1' ]
+154 verbose addNamed [ '6.16.1', '6.16.1' ]
+155 silly lockFile 68e19fb4-gin-transform-regenerator-6-16-1 babel-plugin-transform-regenerator@6.16.1
+156 verbose lock babel-plugin-transform-regenerator@6.16.1 /root/.npm/68e19fb4-gin-transform-regenerator-6-16-1.lock
+157 silly addNameRange number 2 { name: 'babel-preset-es2015', range: '*', hasData: true }
+158 silly addNameRange versions [ 'babel-preset-es2015',
+158 silly addNameRange   [ '6.0.2',
+158 silly addNameRange     '6.0.8',
+158 silly addNameRange     '6.0.11',
+158 silly addNameRange     '6.0.12',
+158 silly addNameRange     '6.0.14',
+158 silly addNameRange     '6.0.15',
+158 silly addNameRange     '6.1.2',
+158 silly addNameRange     '6.1.4',
+158 silly addNameRange     '6.1.17',
+158 silly addNameRange     '6.1.18',
+158 silly addNameRange     '6.2.4',
+158 silly addNameRange     '6.3.13',
+158 silly addNameRange     '6.5.0',
+158 silly addNameRange     '6.5.0-1',
+158 silly addNameRange     '6.6.0',
+158 silly addNameRange     '6.9.0',
+158 silly addNameRange     '6.13.0',
+158 silly addNameRange     '6.13.1',
+158 silly addNameRange     '6.13.2',
+158 silly addNameRange     '6.14.0',
+158 silly addNameRange     '6.16.0',
+158 silly addNameRange     '6.18.0' ] ]
+159 verbose addNamed [ 'babel-preset-es2015', '6.18.0' ]
+160 verbose addNamed [ '6.18.0', '6.18.0' ]
+161 silly lockFile d5b8e2ec-babel-preset-es2015-6-18-0 babel-preset-es2015@6.18.0
+162 verbose lock babel-preset-es2015@6.18.0 /root/.npm/d5b8e2ec-babel-preset-es2015-6-18-0.lock
+163 silly lockFile 68e19fb4-gin-transform-regenerator-6-16-1 babel-plugin-transform-regenerator@6.16.1
+164 silly lockFile 68e19fb4-gin-transform-regenerator-6-16-1 babel-plugin-transform-regenerator@6.16.1
+165 silly lockFile cfe70c1b-bel-plugin-transform-regenerator babel-plugin-transform-regenerator@
+166 silly lockFile cfe70c1b-bel-plugin-transform-regenerator babel-plugin-transform-regenerator@
+167 silly lockFile d5b8e2ec-babel-preset-es2015-6-18-0 babel-preset-es2015@6.18.0
+168 silly lockFile d5b8e2ec-babel-preset-es2015-6-18-0 babel-preset-es2015@6.18.0
+169 silly lockFile 087cfbaa-babel-preset-es2015 babel-preset-es2015@
+170 silly lockFile 087cfbaa-babel-preset-es2015 babel-preset-es2015@
+171 http 304 https://registry.npmjs.org/babel-plugin-syntax-async-functions
+172 silly registry.get cb [ 304,
+172 silly registry.get   { date: 'Mon, 05 Dec 2016 04:48:56 GMT',
+172 silly registry.get     via: '1.1 varnish',
+172 silly registry.get     'cache-control': 'max-age=300',
+172 silly registry.get     etag: 'W/"58092257-5af5"',
+172 silly registry.get     age: '0',
+172 silly registry.get     connection: 'close',
+172 silly registry.get     'x-served-by': 'cache-iad2647-IAD',
+172 silly registry.get     'x-cache': 'HIT',
+172 silly registry.get     'x-cache-hits': '1',
+172 silly registry.get     'x-timer': 'S1480913336.510365,VS0,VE2',
+172 silly registry.get     vary: 'Accept-Encoding' } ]
+173 verbose etag https://registry.npmjs.org/babel-plugin-syntax-async-functions from cache
+174 silly addNameRange number 2 { name: 'babel-plugin-syntax-async-functions',
+174 silly addNameRange   range: '*',
+174 silly addNameRange   hasData: true }
+175 silly addNameRange versions [ 'babel-plugin-syntax-async-functions',
+175 silly addNameRange   [ '6.0.2',
+175 silly addNameRange     '6.0.14',
+175 silly addNameRange     '6.1.4',
+175 silly addNameRange     '6.1.5',
+175 silly addNameRange     '6.1.6',
+175 silly addNameRange     '6.1.7',
+175 silly addNameRange     '6.1.8',
+175 silly addNameRange     '6.1.9',
+175 silly addNameRange     '6.1.10',
+175 silly addNameRange     '6.1.12',
+175 silly addNameRange     '6.1.13',
+175 silly addNameRange     '6.1.16',
+175 silly addNameRange     '6.1.17',
+175 silly addNameRange     '6.1.18',
+175 silly addNameRange     '6.2.4',
+175 silly addNameRange     '6.3.13',
+175 silly addNameRange     '6.5.0',
+175 silly addNameRange     '6.5.0-1',
+175 silly addNameRange     '6.8.0',
+175 silly addNameRange     '6.13.0' ] ]
+176 verbose addNamed [ 'babel-plugin-syntax-async-functions', '6.13.0' ]
+177 verbose addNamed [ '6.13.0', '6.13.0' ]
+178 silly lockFile ebb9b517-in-syntax-async-functions-6-13-0 babel-plugin-syntax-async-functions@6.13.0
+179 verbose lock babel-plugin-syntax-async-functions@6.13.0 /root/.npm/ebb9b517-in-syntax-async-functions-6-13-0.lock
+180 silly lockFile ebb9b517-in-syntax-async-functions-6-13-0 babel-plugin-syntax-async-functions@6.13.0
+181 silly lockFile ebb9b517-in-syntax-async-functions-6-13-0 babel-plugin-syntax-async-functions@6.13.0
+182 silly lockFile e92ce563-el-plugin-syntax-async-functions babel-plugin-syntax-async-functions@
+183 silly lockFile e92ce563-el-plugin-syntax-async-functions babel-plugin-syntax-async-functions@
+184 silly resolved [ { name: 'babel-plugin-transform-regenerator',
+184 silly resolved     author: { name: 'Ben Newman', email: 'bn@cs.stanford.edu' },
+184 silly resolved     description: 'Explode async and generator functions into a state machine.',
+184 silly resolved     version: '6.16.1',
+184 silly resolved     homepage: 'https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-regenerator',
+184 silly resolved     repository:
+184 silly resolved      { type: 'git',
+184 silly resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-regenerator' },
+184 silly resolved     main: 'lib/index.js',
+184 silly resolved     dependencies:
+184 silly resolved      { 'babel-types': '^6.16.0',
+184 silly resolved        'babel-runtime': '^6.9.0',
+184 silly resolved        private: '~0.1.5' },
+184 silly resolved     license: 'BSD',
+184 silly resolved     devDependencies: { 'babel-helper-plugin-test-runner': '^6.8.0' },
+184 silly resolved     _id: 'babel-plugin-transform-regenerator@6.16.1',
+184 silly resolved     scripts: {},
+184 silly resolved     _shasum: 'a75de6b048a14154aae14b0122756c5bed392f59',
+184 silly resolved     _from: 'babel-plugin-transform-regenerator@',
+184 silly resolved     _npmVersion: '3.10.8',
+184 silly resolved     _nodeVersion: '5.11.1',
+184 silly resolved     _npmUser: { name: 'hzoo', email: 'hi@henryzoo.com' },
+184 silly resolved     dist:
+184 silly resolved      { shasum: 'a75de6b048a14154aae14b0122756c5bed392f59',
+184 silly resolved        tarball: 'https://registry.npmjs.org/babel-plugin-transform-regenerator/-/babel-plugin-transform-regenerator-6.16.1.tgz' },
+184 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+184 silly resolved     _npmOperationalInternal:
+184 silly resolved      { host: 'packages-16-east.internal.npmjs.com',
+184 silly resolved        tmp: 'tmp/babel-plugin-transform-regenerator-6.16.1.tgz_1475097914225_0.827174331760034' },
+184 silly resolved     directories: {},
+184 silly resolved     _resolved: 'https://registry.npmjs.org/babel-plugin-transform-regenerator/-/babel-plugin-transform-regenerator-6.16.1.tgz',
+184 silly resolved     readme: 'ERROR: No README data found!' },
+184 silly resolved   { name: 'babel-preset-es2015',
+184 silly resolved     version: '6.18.0',
+184 silly resolved     description: 'Babel preset for all es2015 plugins.',
+184 silly resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
+184 silly resolved     homepage: 'https://babeljs.io/',
+184 silly resolved     license: 'MIT',
+184 silly resolved     repository:
+184 silly resolved      { type: 'git',
+184 silly resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-preset-es2015' },
+184 silly resolved     main: 'lib/index.js',
+184 silly resolved     dependencies:
+184 silly resolved      { 'babel-plugin-check-es2015-constants': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-es2015-arrow-functions': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-es2015-block-scoped-functions': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-es2015-block-scoping': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-classes': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-computed-properties': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-es2015-destructuring': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-duplicate-keys': '^6.6.0',
+184 silly resolved        'babel-plugin-transform-es2015-for-of': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-function-name': '^6.9.0',
+184 silly resolved        'babel-plugin-transform-es2015-literals': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-es2015-modules-amd': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-modules-commonjs': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-modules-systemjs': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-modules-umd': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-object-super': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-es2015-parameters': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-shorthand-properties': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-spread': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-es2015-sticky-regex': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-es2015-template-literals': '^6.6.0',
+184 silly resolved        'babel-plugin-transform-es2015-typeof-symbol': '^6.18.0',
+184 silly resolved        'babel-plugin-transform-es2015-unicode-regex': '^6.3.13',
+184 silly resolved        'babel-plugin-transform-regenerator': '^6.16.0' },
+184 silly resolved     devDependencies:
+184 silly resolved      { 'babel-helper-transform-fixture-test-runner': '^6.18.0',
+184 silly resolved        'babel-helper-plugin-test-runner': '^6.18.0' },
+184 silly resolved     _id: 'babel-preset-es2015@6.18.0',
+184 silly resolved     scripts: {},
+184 silly resolved     _shasum: 'b8c70df84ec948c43dcf2bf770e988eb7da88312',
+184 silly resolved     _from: 'babel-preset-es2015@',
+184 silly resolved     _npmVersion: '3.10.8',
+184 silly resolved     _nodeVersion: '6.9.0',
+184 silly resolved     _npmUser: { name: 'hzoo', email: 'hi@henryzoo.com' },
+184 silly resolved     dist:
+184 silly resolved      { shasum: 'b8c70df84ec948c43dcf2bf770e988eb7da88312',
+184 silly resolved        tarball: 'https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.18.0.tgz' },
+184 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+184 silly resolved     _npmOperationalInternal:
+184 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+184 silly resolved        tmp: 'tmp/babel-preset-es2015-6.18.0.tgz_1477343949614_0.9732493553310633' },
+184 silly resolved     directories: {},
+184 silly resolved     _resolved: 'https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.18.0.tgz',
+184 silly resolved     readme: 'ERROR: No README data found!' },
+184 silly resolved   { name: 'babel-plugin-syntax-async-functions',
+184 silly resolved     version: '6.13.0',
+184 silly resolved     description: 'Allow parsing of async functions',
+184 silly resolved     repository:
+184 silly resolved      { type: 'git',
+184 silly resolved        url: 'https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-async-functions' },
+184 silly resolved     license: 'MIT',
+184 silly resolved     main: 'lib/index.js',
+184 silly resolved     keywords: [ 'babel-plugin' ],
+184 silly resolved     dependencies: {},
+184 silly resolved     devDependencies: {},
+184 silly resolved     _id: 'babel-plugin-syntax-async-functions@6.13.0',
+184 silly resolved     scripts: {},
+184 silly resolved     _shasum: 'cad9cad1191b5ad634bf30ae0872391e0647be95',
+184 silly resolved     _from: 'babel-plugin-syntax-async-functions@',
+184 silly resolved     _npmVersion: '3.10.3',
+184 silly resolved     _nodeVersion: '5.11.1',
+184 silly resolved     _npmUser: { name: 'hzoo', email: 'hi@henryzoo.com' },
+184 silly resolved     dist:
+184 silly resolved      { shasum: 'cad9cad1191b5ad634bf30ae0872391e0647be95',
+184 silly resolved        tarball: 'https://registry.npmjs.org/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz' },
+184 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+184 silly resolved     _npmOperationalInternal:
+184 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+184 silly resolved        tmp: 'tmp/babel-plugin-syntax-async-functions-6.13.0.tgz_1470353692618_0.4568883990868926' },
+184 silly resolved     directories: {},
+184 silly resolved     _resolved: 'https://registry.npmjs.org/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz',
+184 silly resolved     readme: 'ERROR: No README data found!' } ]
+185 info install babel-plugin-transform-regenerator@6.16.1 into /root/Escritorio/Files/NewGram
+186 info install babel-preset-es2015@6.18.0 into /root/Escritorio/Files/NewGram
+187 info install babel-plugin-syntax-async-functions@6.13.0 into /root/Escritorio/Files/NewGram
+188 info installOne babel-plugin-transform-regenerator@6.16.1
+189 info installOne babel-preset-es2015@6.18.0
+190 info installOne babel-plugin-syntax-async-functions@6.13.0
+191 verbose node_modules/babel-plugin-transform-regenerator unbuild
+192 info preuninstall babel-plugin-transform-regenerator@6.16.1
+193 verbose node_modules/babel-preset-es2015 unbuild
+194 info preuninstall babel-preset-es2015@6.18.0
+195 verbose node_modules/babel-plugin-syntax-async-functions unbuild
+196 info preuninstall babel-plugin-syntax-async-functions@6.13.0
+197 info uninstall babel-plugin-transform-regenerator@6.16.1
+198 info uninstall babel-preset-es2015@6.18.0
+199 info uninstall babel-plugin-syntax-async-functions@6.13.0
+200 verbose true,/root/Escritorio/Files/NewGram/node_modules,/root/Escritorio/Files/NewGram/node_modules unbuild babel-plugin-transform-regenerator@6.16.1
+201 info postuninstall babel-plugin-transform-regenerator@6.16.1
+202 verbose true,/root/Escritorio/Files/NewGram/node_modules,/root/Escritorio/Files/NewGram/node_modules unbuild babel-preset-es2015@6.18.0
+203 info postuninstall babel-preset-es2015@6.18.0
+204 verbose true,/root/Escritorio/Files/NewGram/node_modules,/root/Escritorio/Files/NewGram/node_modules unbuild babel-plugin-syntax-async-functions@6.13.0
+205 info postuninstall babel-plugin-syntax-async-functions@6.13.0
+206 error TypeError: glob.hasMagic is not a function
+206 error     at rimraf (/usr/lib/nodejs/rimraf/rimraf.js:61:36)
+206 error     at gentlyRm (/usr/share/npm/lib/utils/gently-rm.js:29:12)
+206 error     at Array.<anonymous> (/usr/lib/nodejs/slide/lib/bind-actor.js:15:8)
+206 error     at LOOP (/usr/lib/nodejs/slide/lib/chain.js:15:14)
+206 error     at /usr/lib/nodejs/slide/lib/chain.js:18:7
+206 error     at /usr/share/npm/lib/utils/lifecycle.js:102:7
+206 error     at LOOP (/usr/lib/nodejs/slide/lib/chain.js:7:26)
+206 error     at /usr/lib/nodejs/slide/lib/chain.js:18:7
+206 error     at /usr/share/npm/lib/utils/lifecycle.js:254:20
+206 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:276:29
+207 error If you need help, you may report this *entire* log,
+207 error including the npm and node versions, at:
+207 error     <http://github.com/npm/npm/issues>
+208 error System Linux 4.8.0-kali1-amd64
+209 error command "/usr/bin/nodejs" "/usr/bin/npm" "i" "--save-dev" "babel-plugin-syntax-async-functions" "babel-plugin-transform-regenerator" "babel-preset-es2015"
+210 error cwd /root/Escritorio/Files/NewGram
+211 error node -v v4.3.1
+212 error npm -v 1.4.21
+213 verbose exit [ 1, true ]
