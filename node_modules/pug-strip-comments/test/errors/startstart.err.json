@@ -1,5 +1,5 @@
 {
   "msg": "`start-pipeless-text` encountered when already in pipeless text mode",
-  "code": "JADE:UNEXPECTED_TOKEN",
+  "code": "PUG:UNEXPECTED_TOKEN",
   "line": 3
 }

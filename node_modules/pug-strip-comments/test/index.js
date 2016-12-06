@@ -46,7 +46,7 @@ fs.readdirSync(edir).forEach(function (testCase) {
         strip(input);
         throw new Error('Expected ' + testCase + ' to throw an exception.');
       } catch (ex) {
-        if (!ex || !ex.code || !ex.code.indexOf('JADE:') === 0) throw ex;
+        if (!ex || !ex.code || !ex.code.indexOf('PUG:') === 0) throw ex;
         actual = {
           msg: ex.msg,
           code: ex.code,
