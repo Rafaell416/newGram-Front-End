@@ -31,6 +31,7 @@ module.exports = function (pictures) {
 
   //este es el modulo para la subida de la foto  
   // se maneja  por funciones para cada cambio 
+  // fullstack newgram app
 
   function toggleButtons() {
     document.getElementById('fileName').classList.toggle('hide');
