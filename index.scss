@@ -120,19 +120,19 @@ $avatar-size: 48px;
   }
 }
 
-.form-upload{
+.form-upload {
 
   span, button {
     color: white;
   }
 
   .fileUpload {
-    
-    position: relative;;
+    position: relative;
     overflow: hidden;
     margin: 10px;
 
-    input{
+
+    input {
       position: absolute;
       top: 0;
       right: 0;
@@ -147,5 +147,9 @@ $avatar-size: 48px;
 
   }
 
+
+
 }
+
+
 
