@@ -20,6 +20,7 @@
     "url": "https://github.com/Rafaell416/NewGram/issues"
   },
   "dependencies": {
+    "aws-sdk": "^2.7.19",
     "axios": "^0.15.3",
     "babel": "^6.5.2",
     "babel-polyfill": "^6.16.0",
@@ -34,6 +35,7 @@
     "materialize-css": "^0.97.8",
     "moment": "^2.17.1",
     "multer": "^1.2.0",
+    "multer-s3": "^2.5.0",
     "page": "^1.7.1",
     "pug": "^2.0.0-beta6",
     "superagent": "^3.1.0",

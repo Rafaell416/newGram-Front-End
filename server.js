@@ -24,11 +24,11 @@ app.get('/', function (req, res) {
 })
 
 app.get('/signup', function (req, res) {
-  res.render('index', { title: 'newGram|Signup' });
+  res.render('index', { title: 'newGram - Signup' });
 })
 
 app.get('/signin', function (req, res) {
-  res.render('index', { title: 'newGram|Signin' });
+  res.render('index', { title: 'newGram - Signin' });
 })
 
 app.get('/api/pictures', function (req, res, next) {
@@ -57,7 +57,7 @@ app.get('/api/pictures', function (req, res, next) {
 
   setTimeout(function () {
     res.send(pictures);  
-  }, 1000)
+  }, 2000)
 });
 
 app.post('/api/pictures', function (req, res) {
@@ -69,8 +69,57 @@ app.post('/api/pictures', function (req, res) {
   })
 })
 
+app.get('/api/user/:username', (req, res) => {
+  const user = {
+    username: 'newGram',
+    avatar: 'apple-icon.png',
+    pictures: [
+      {
+        id: 1,
+        src: 'https://platzi.com/blog/wp-content/uploads/2015/03/rethinkdb.jpg',
+        likes: 3
+      },
+      {
+        id: 2,
+        src: 'js.jpeg',
+        likes: 1
+      },
+      {
+        id: 3,
+        src: 'public/android.png',
+        likes: 10
+      },
+      {
+        id: 4,
+        src: 'node.png',
+        likes: 0
+      },
+      {
+        id: 5,
+        src: 'npm.png',
+        likes: 23
+      },
+      {
+        id: 6,
+        src: 'octocat.jpeg',
+        likes: 11
+      }
+    ]
+  }
+
+  res.send(user);
+})
+
+app.get('/:username', function (req, res) {
+  res.render('index', { title: `newGram - ${req.params.username}` });
+})
+
+app.get('/:username/:id', function (req, res) {
+  res.render('index', { title: `newGram - ${req.params.username}` });
+})
+
 app.listen(3000, function (err) {
   if (err) return console.log('There was an error'), process.exit(1);
 
-  console.log('newGram listening at port  3000');
+  console.log('newGram listening at port 3000');
 })
